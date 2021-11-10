@@ -1,6 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -107,6 +108,7 @@ button {
     width: 55%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .random-info h3 {
@@ -133,4 +135,29 @@ button {
 
 .card {
     text-align: center;
+}
+
+.inspiring-quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    padding: 0 35px 30px 35px;
+}
+
+.inspiring-quote-text h3 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.inspiring-quote-name p {
+    width: 55%;
+    margin: 0 auto;
+    text-align: end;
 }
