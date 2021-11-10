@@ -133,8 +133,10 @@ button {
     gap: 80px;
 }
 
-.card {
+.card p {
     text-align: center;
+    color: #1f2937;
+    padding-top: 8px;
 }
 
 .inspiring-quote {
@@ -160,4 +162,34 @@ button {
     width: 55%;
     margin: 0 auto;
     text-align: end;
+    color: #1f2937
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    padding: 0 50px 30px 50px;
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 80px;
+    justify-content: space-evenly;
+}
+
+.call-to-action-right button {
+    border: #e5e7eb solid 2px;
+}
+
+.call-to-action-container h3, p {
+    color: #e5e7eb;
+    margin: 0;
 }
